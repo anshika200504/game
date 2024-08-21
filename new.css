@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #FEFAE0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    background-color:#2B2D42;
+    height: 6rem;
+    line-height: 6rem;
+    width: 100%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+} 
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 80px;
+    
+}
+img{
+    object-fit: cover;
+    border-radius: 10%;
+}
+.choice{
+    border-radius: 10%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+   background-color: #081b31;
+    cursor: pointer;
+
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+    
+}
+#user_score, #comp_score{
+    font-size: 4rem;
+   
+}
+#you, #comp{
+    margin-top: 1rem;
+}
+#msg{
+    background-color: #081b31;
+    font-size: 2rem;
+    color: white;
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9rem;
+    font-size: 30px;
+    cursor: pointer;
+}
